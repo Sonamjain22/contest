@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 8%;
+    background-color: #ffffff;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(199, 191, 191, 0.603);
+}
+#top h6{
+   padding: 10PX;
+    font-size: 10px;
+    color: black;
+    font-weight: 100;
+    font-family: "monserrat"
+    
+}
+#top h1{
+    padding-left: 500px;
+    padding-right: 400px;
+    font-size: 20px;
+    color: black;
+    font-weight: 200;
+    font-family: "monserrat";
+    letter-spacing: 5px;
+
+}
+#top i{
+    color: black;
+}
+#middle{
+    
+    padding-left: 350px;
+    padding-right: 350px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 8%;
+    background-color: #ffffff;
+}
+#middle h6{
+    letter-spacing: 5px;
+    padding: 10PX;
+    font-size: 10px;
+    color: black;
+    font-weight: 100;
+    font-family: "monserrat"
+    
+}
+#middle h5{
+    letter-spacing: 5px;
+    color: red;
+}
+#main h1{
+    font-family: "arial";
+    font-size: 150px;
+    font-weight: 800px;
+    color: antiquewhite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(https://images.unsplash.com/photo-1598041010547-37505e4ad859?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    
+}
+#main h5{
+   
+    color: black;
+    letter-spacing: 5PX;
+    word-spacing: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    
+    
+}
+#button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300PX;
+    height: 30PX;
+    padding-top: 5px;
+    padding-left: 80px;
+    border-radius: 10px;
+    background-color: grey;  
+    border: transparent;
+}
+#buttom{ 
+    display: flex;
+    width: 100%;
+    height: 17%;
+    background-image: url(https://i1.adis.ws/i/boohooamplience/akk96118_orange_xl?$product_image_category_page_horizontal_filters_desktop$);
+}
